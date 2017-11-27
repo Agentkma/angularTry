@@ -1,0 +1,47 @@
+<div class="container">
+<h3>Blog {{name}} !</h3>
+<br>
+<article>
+
+    <div class="row">
+        <small><a href="#" ng-click="changeCols(4)">change</a></small>
+    </div>
+    <hr></hr>
+    <div class="row">
+        <div class="col-sm-6">
+        <input type="text" ng-model="query" placeholder="Filter Posts"/>
+        </div>
+        <!-- <div class="col-sm-6">
+            <label>Sort</label>
+            <select ng-model="order">
+                <option value="-publishDate">Recent</option>
+                <option value="publishDate">Older</option>
+                <option value="title">A-Z</option>
+                <option value="-title">Z-A</option>
+            </select>
+        </div> -->
+    </div>
+    <hr></hr>
+
+    <div class="row" dir-paginate="item in colItems | orderBy: publishDate | itemsPerPage : 4 | filter:query" >
+        <div class="{{cssClass}} " ng-if="items.length > 0" ng-repeat="post in item" >
+            <div class="card" style="width:20rem">
+                <img class="card-img-top img-thumbnail" ng-src="{{post.image}}" alt="Card image cap">
+              <div  class="card-body">
+                <h4 class="card-title">Title: {{post.title}}</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Genre: {{post.genre}}</h6>
+                <p>{{post.publishDate}}</p>
+                 <a confirm-click="Are you ready?" confirmed-click="goToItem(post)"ng-href="#" class="card-link" >Read Post</a>
+
+              </div>
+              <hr></hr>
+            </div>
+        </div>
+    </div>
+
+    <span ng-if="items.length == 0">Posts Coming Soon!</span>
+
+    <dir-pagination-controls ng-hide="query.length >0"></dir-pagination-controls>
+
+</article>
+</div>

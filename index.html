@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--. declare/instantiate angular app via ng-app="app"  -->
+<html lang="en-us" ng-app="app">
+
+<head>
+    <base href="/"/>
+    <title>KevBlog : an AngularJS SPA</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+
+    <!-- load bootstrap and fontawesome via CDN -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        html,
+        body,
+        input,
+        select,
+        textarea {
+            font-size: 1.05em !important;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- load angular via CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-resource.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+
+    <script src="external/dirPagination.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/app.config.js"></script>
+    <script src="app/core/post/post.module.js"></script>
+    <script src="app/core/post/post.service.js"></script>
+
+    <script src="app/blog-list/blog-list.module.js"></script>
+    <script src="app/blog-list/blog-list.component.js"></script>
+
+    <script src="app/blog-detail/blog-detail.module.js"></script>
+    <script src="app/blog-detail/blog-detail.component.js"></script>
+    <script src="app/utils/confirm-click/confirm-click.module.js"></script>
+    <script src="app/utils/confirm-click/confirm-click.directive.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <nav role="navigation" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">KevBlog</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main" role="main">
+        <div class="container">
+            <!-- Insert Angular template content  -->
+            <div ng-view></div>
+
+        </div>
+    </main>
+    <footer role="contentinfo">
+    </footer>
+
+</body>
+
+</html>

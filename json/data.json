@@ -1,0 +1,147 @@
+[ {
+    "id": 1,
+    "title": "Welcome to The Monkeyhouse",
+    "description": "Great Sci-Fi!  Futuristic book with lots of interesting plot twists.",
+    "genre":" Sci-Fi",
+    "comments": [
+        {"id":"1",
+        "text": " Good, not great"},
+        {"id":"2",
+        "text": " Best ever!"}
+    ],
+    "image" : "https://cdn.pixabay.com/photo/2017/11/12/19/22/high-speed-2943518_960_720.jpg",
+    "publishDate": "2017-10-06"
+    },
+    {"id": 2,
+    "title": "Slaughter House Five",
+    "description": "Good Sci-Fi.  Another great Kurt Vonnegut novel.",
+    "genre": "Sci-Fi",
+    "comments": [
+        {"id":"1",
+        "text": " Woa!"},
+        {"id":"2",
+        "text": " Huh?!"}
+    ],
+    "image" : "https://cdn.pixabay.com/photo/2017/09/25/07/49/powerboat-2784250_960_720.jpg",
+    "publishDate": "2017-10-07"},
+    {"id": 3,
+    "title": "The Beginning of Infinity",
+    "description": "Uber Delight.  Inspiring and contemplative as well as informative at every sentance.",
+"genre": "Non-Fiction",
+"comments": [
+    {"id":"1",
+    "text": " I can't believe this!"},
+    {"id":"2",
+    "text": " Who are you to waive your finger?"}
+],
+"image" : "https://cdn.pixabay.com/photo/2017/10/27/15/52/jaguar-2894706_960_720.jpg",
+"publishDate": "2017-10-08"},
+{"id": 4,
+"title": "The Fabric of Reality",
+"description": "Uber Delight.  Inspiring and contemplative as well as informative at every sentance.",
+"genre": "Non-Fiction",
+"comments": [
+{"id":"1",
+"text": " I can't help but love this book"},
+{"id":"2",
+"text": " Who is the best? David Deutsch"}
+],
+"image" : "https://cdn.pixabay.com/photo/2017/11/04/21/06/adler-2918835_960_720.jpg",
+"publishDate": "2017-10-09"},
+{"id": 5,
+"title": "The Rational Optimist",
+"description": "Uber Delight.  Inspiring and contemplative as well as informative at every sentance.",
+"genre": "Non-Fiction",
+"comments": [
+{"id":"1",
+"text": " Best read in years"},
+{"id":"2",
+"text": " Truly informative and inspirational"}
+],
+"image" : "https://cdn.pixabay.com/photo/2017/11/05/00/46/flower-2919284_960_720.jpg",
+"publishDate": "2017-10-11"},
+{"id": 6,
+"title": "A Brief History of Time",
+"description": "Uber Delight.  Inspiring and contemplative as well as informative at every sentance.",
+"genre": "Non-Fiction",
+"comments": [
+{"id":"1",
+"text": " Best read in decades"},
+{"id":"2",
+"text": " Truly informative and inspirational"}
+],
+"image" : "https://cdn.pixabay.com/photo/2017/09/09/20/12/butterfly-2733287_960_720.jpg",
+"publishDate": "2017-10-13"},
+{"id": 7,
+"title": "A Long History of Time",
+"description": "Uber Delight.  Inspiring and contemplative as well as informative at every sentance.",
+"genre": "Non-Fiction",
+"comments": [
+{"id":"1",
+"text": " Best read in decades"},
+{"id":"2",
+"text": " Truly informative and inspirational"}
+],
+"image" : "https://cdn.pixabay.com/photo/2017/09/26/14/48/cow-2788835_960_720.jpg",
+"publishDate": "2017-10-15"},
+{"id": 8,
+"title": "Night",
+"description": "Uber Delight.  Inspiring and contemplative as well as informative at every sentance.",
+"genre": "Non-Fiction",
+"comments": [
+{"id":"1",
+"text": " Best read in decades"},
+{"id":"2",
+"text": " Truly informative and inspirational"}
+],
+"image" : "https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg",
+"publishDate": "2017-10-17"},
+{"id": 9,
+"title": "Working Stiff",
+"description": "Uber Delight.  Inspiring and contemplative as well as informative at every sentance.",
+"genre": "Non-Fiction",
+"comments": [
+{"id":"1",
+"text": " Best read in decades"},
+{"id":"2",
+"text": " Truly informative and inspirational"}
+],
+"image" : "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_960_720.jpg",
+"publishDate": "2017-10-19"},
+{"id": 10,
+"title": "11 Things You Must Know",
+"description": "Uber Delight.  Inspiring and contemplative as well as informative at every sentance.",
+"genre": "Non-Fiction",
+"comments": [
+{"id":"1",
+"text": " Best read in decades"},
+{"id":"2",
+"text": " Truly informative and inspirational"}
+],
+"image" : "https://cdn.pixabay.com/photo/2017/09/03/17/26/woman-2711279_960_720.jpg",
+"publishDate": "2017-10-21"},
+{"id": 11,
+"title": "No One is Innocent",
+"description": "Uber Delight.  Inspiring and contemplative as well as informative at every sentance.",
+"genre": "Non-Fiction",
+"comments": [
+{"id":"1",
+"text": " Best read in decades"},
+{"id":"2",
+"text": " Truly informative and inspirational"}
+],
+"image" : "https://cdn.pixabay.com/photo/2017/08/01/08/29/people-2563491_960_720.jpg",
+"publishDate": "2017-10-22"},
+{"id": 12,
+"title": "Everyone is Guilty",
+"description": "Uber Delight.  Inspiring and contemplative as well as informative at every sentance.",
+"genre": "Non-Fiction",
+"comments": [
+{"id":"1",
+"text": " Best read in decades"},
+{"id":"2",
+"text": " Truly informative and inspirational"}
+],
+"image" : "https://cdn.pixabay.com/photo/2017/08/12/19/01/walk-2635038_960_720.jpg",
+"publishDate": "2017-10-23"}
+]
